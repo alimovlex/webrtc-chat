@@ -1,10 +1,16 @@
 {
-  "name": "opengl-project",
+  "name": "webrtc-chat",
   "version-string": "0.1.0",
   "dependencies": [
-    "curl",
-    "nlohmann-json",
     "libdatachannel",
-    "spdlog"
+    {
+          "name": "imgui",
+          "features": [
+            "glfw-binding",
+            "opengl3-binding",
+            "docking-experimental"
+          ]
+        },
+    "glfw3"
   ]
 }
